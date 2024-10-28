@@ -1,9 +1,11 @@
-## 이슈 번호
+## Issue Number
 
-> ex) #이슈번호
+> e.g., #Issue Number
 
-## 작업 내용 및 테스트 방법
+## Work Description and Testing Methods
 
-> 이번 PR에서 작업한 내용을 간략히 설명해주세요(이미지 첨부 가능)
+> Briefly describe the work done in this PR (images can be attached)
 
 ## To reviewers
+
+> Any messages you want to convey to the reviewers.
