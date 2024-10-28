@@ -1,1 +1,1 @@
-console.info("Hotfix");
+console.info("Hotfix.");
