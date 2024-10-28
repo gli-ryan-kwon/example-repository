@@ -6,27 +6,33 @@ body:
   - type: markdown
     attributes:
       value: |
-        ✨ Feat : 새로운 기능 추가 및 기존 기능 요구사항에 맞춰 수정
-        🐛 Fix : 기능에 대한 버그 수정
-        ♻️ Refactor : 코드 리팩토링
-        💄 Design : CSS 및 디자인 수정
-        📝 Doc : 문서 수정
-        🚨 Hotfix : 급한 수정
-        📦 Chore : 그 외 기타 수정
+        ✨ Feat : Implementation of new features and adjustments to existing features to meet requirements.
+
+        🐛 Fix : Resolution of bugs affecting functionality.
+
+        ♻️ Refactor : Improvement and restructuring of code without changing its external behavior.
+
+        💄 Design : Modifications to CSS and overall design elements.
+
+        📝 Doc : Updates and improvements to documentation.
+
+        🚨 Hotfix : Immediate fixes for critical issues.
+
+        📦 Chore : Other minor updates.
 
   - type: textarea
     id: title
     attributes:
-      label: ✨ 작업 내용
-      description: 해야할 작업에 대해서 간단하게 적어주세요
+      label: ✨ Task Title
+      description: Please provide a brief summary of the task.
     validations:
       required: true
 
   - type: textarea
     id: content
     attributes:
-      label: ⚙ 상세한 작업 내용
-      description: 상세한 작업 내용을 적어주세요
+      label: ⚙ Task Content
+      description: Please describe the work to be done.
       value: "- [ ] :
 
         - [ ] :
